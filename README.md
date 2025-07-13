@@ -8,9 +8,8 @@
 Boogey—better known as Albatross V2—isn’t just a name upgrade. The name might sound suspiciously close to "Booter," and hits like a freight train, and leaves the internet wondering if it just got punk’d.
 
 ## 📦 Features
-# BOOGEY 
 <p align="center" width="100%">
-    <img width="50%" src="https://blogger.googleusercontent.com/img/a/AVvXsEh4mYff_0wZPoCxcOJSH9pajS5x1ic0u5dRigNohjFFXa_5pb8ZxER6btmZAbajy3sR0AWsjINxYxNkzrY-_ieuLtlP9815-pPf0MCuCTkdI8ojY876K4ddHjiXMqc3lKZmely2j6WeAS0JTo1ucQkPuofDBuKlEzkpo68L3fbMyD_p0bFZHdOTZnV35HW3"> 
+    <img width="70%" src="https://blogger.googleusercontent.com/img/a/AVvXsEh4mYff_0wZPoCxcOJSH9pajS5x1ic0u5dRigNohjFFXa_5pb8ZxER6btmZAbajy3sR0AWsjINxYxNkzrY-_ieuLtlP9815-pPf0MCuCTkdI8ojY876K4ddHjiXMqc3lKZmely2j6WeAS0JTo1ucQkPuofDBuKlEzkpo68L3fbMyD_p0bFZHdOTZnV35HW3"> 
 </p>
 
 ## ⚠️ Disclaimer
@@ -21,7 +20,7 @@ This tool is for **educational and authorized testing** only. Unauthorized use a
 ## 📁 Installation
 ```bash
 git clone https://github.com/your-repo/cdn-penetration-tester.git
-cd cdn-penetration-tester
+cd boogey
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -29,7 +28,7 @@ pip install -r requirements.txt
 
 ## 🧪 Usage
 ```bash
-python cdn_penetration_tester.py
+python boogey.py
 ```
 Follow the on-screen prompts:
 1. Enter the domain (e.g. `example.com`)
@@ -48,10 +47,3 @@ Follow the on-screen prompts:
 | `http2_rst.py`         | Simulates HTTP/2 RST_STREAM flood (CVE-2023-44487)            |
 | `cache_bypass_storm.py`| Sends uncached requests to origin using headers + UUID params |
 | `origin_down_push.py`  | Probes for real origin IPs and sends direct HTTP requests     |
-
-## 📜 License
-MIT (Modify for legal compliance and usage limitations)
-
----
-
-For more help or module customization, contact your security team or red team operations leader.
