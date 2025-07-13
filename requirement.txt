@@ -1,2 +1,12 @@
-request
-httpx
+# requirements.txt
+httpx>=0.25.0
+asyncio
+requests
+h2
+selenium
+chromedriver-autoinstaller
+pyOpenSSL
+dnspython
+tqdm
+colorama
+aioquic

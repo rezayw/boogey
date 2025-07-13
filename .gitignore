@@ -5,3 +5,21 @@
 *.pyo
 *.pyd
 venv
+
+
+git checkout stag
+git status
+# If you see uncommitted changes:
+git add .
+git commit -m "Your commit message"
+git checkout main
+git merge stag
+git push origin main
+
+file
+
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
