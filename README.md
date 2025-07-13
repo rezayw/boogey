@@ -19,7 +19,7 @@ This tool is for **educational and authorized testing** only. Unauthorized use a
 
 ## 📁 Installation
 ```bash
-git clone https://github.com/your-repo/cdn-penetration-tester.git
+git clone https://github.com/rezayw/boogey.git
 cd boogey
 python3 -m venv venv
 source venv/bin/activate
